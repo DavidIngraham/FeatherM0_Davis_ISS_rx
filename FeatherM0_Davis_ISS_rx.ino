@@ -1,4 +1,4 @@
-#include <Arduino.h>
+
 
 #include <SPI.h>
 //#include <EEPROM.h>
@@ -9,6 +9,7 @@
 
 #include "DavisRFM69.h"
 #include "PacketFifo.h"
+#include "mavlink-efi-weather/ardupilotmega/mavlink.h"
 
 #define LED 13
 #define SERIAL_BAUD 19200
